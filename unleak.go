@@ -24,25 +24,25 @@ func Ints(b []int) []int {
 	return v
 }
 
-func Int8s(b []int) []int8 {
+func Int8s(b []int8) []int8 {
 	v := make([]int8, len(b))
 	copy(v, b)
 	return v
 }
 
-func Int16s(b []int) []int16 {
+func Int16s(b []int16) []int16 {
 	v := make([]int16, len(b))
 	copy(v, b)
 	return v
 }
 
-func Int32s(b []int) []int32 {
+func Int32s(b []int32) []int32 {
 	v := make([]int32, len(b))
 	copy(v, b)
 	return v
 }
 
-func Int64s(b []int) []int64 {
+func Int64s(b []int64) []int64 {
 	v := make([]int64, len(b))
 	copy(v, b)
 	return v

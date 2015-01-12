@@ -12,7 +12,8 @@ func Runes(b []rune) []rune {
 	return v
 }
 
-func String(b string) string {
+func String(s string) string {
+	b := []byte(s)
 	v := make([]byte, len(b))
 	copy(v, b)
 	return string(v)
